@@ -1,5 +1,5 @@
 deployment:
-  name: test-sept-24
+  name: devops-project-tetris
   replicaCount: 1
 image:
   repository: 879381264703.dkr.ecr.ap-south-1.amazonaws.com
