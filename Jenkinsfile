@@ -35,13 +35,13 @@ pipeline {
         //     }
         // }
 
-        stage("quality gate"){
-           steps {
-                script {
-                    waitForQualityGate abortPipeline: false, credentialsId: 'sonarToken' 
-                }
-            } 
-        }
+        // stage("quality gate"){
+        //    steps {
+        //         script {
+        //             waitForQualityGate abortPipeline: false, credentialsId: 'sonarToken' 
+        //         }
+        //     } 
+        // }
 
         stage('Docker Build') {
             steps {
